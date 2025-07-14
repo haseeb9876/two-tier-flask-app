@@ -5,7 +5,7 @@ pipeline {
         stage("Code Clone") {
             steps {
                 git url: 'https://github.com/haseeb9876/two-tier-flask-app.git'
-            }
+            } 
         }
 
         stage("Trivy File System Scan") {
