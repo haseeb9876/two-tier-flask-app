@@ -15,7 +15,7 @@ pipeline {
         }
 
         stage("Build") {
-            steps {
+            steps { 
                 sh "docker build -t two-tier-flask-app ."
             }
         }
